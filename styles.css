@@ -22,6 +22,10 @@ h1 {
     font-family: 'Oswald', sans-serif;
     color: #fff;
     font-size: 60px;
+
+        text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+    
+
 }
 
 nav {
