@@ -80,4 +80,9 @@ footer {
     width: 25em;
     border-radius: 20px;
     margin: 25px;
+    transition: .5s;
   }
+  .thumb:hover{
+    transform: scale(1.1);
+}
+  
