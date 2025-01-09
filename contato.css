@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  
 .hero-container {
     height: 100vh;
     display: flex;
@@ -262,7 +268,7 @@ form {
     min-height: 5em;
     max-height: 5em;
     background-color: #ffffff;
-    border-color:  rgb(196, 35, 131);
+    border-color:  #D870DB;
     border-radius: 8px;
    }
 
@@ -270,7 +276,7 @@ form {
   
     width: 80%;
     border:none;
-    background-color:   rgb(196, 35, 131);
+    background-color:  #D870DB;
     color: rgb(224, 224, 224);
     font-family: 'Kdam Thmor Pro',sans-serif;
     border-radius: 8px;
@@ -293,3 +299,79 @@ footer {
     
     font-family: 'Oswald', sans-serif;
     color: #fff;}
+
+    #form-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:0;
+       
+      }
+      
+      
+      
+       form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color:#D870DB;
+        width: 20rem;
+        height: 20rem;
+        border-radius: 10%;
+        padding: 30px;
+        top:1em;
+      justify-content: center;
+      margin:0;
+       }
+       label{
+        font-family: 'Kdam Thmor Pro',sans-serif;
+        color: #ffffff;
+        display: block;
+        font-size: 1em;
+        background-color: #D870DB;;
+       }
+       input{
+        display: block;
+        background-color: #ffffff;
+        border-color:  rgb(196, 35, 131);
+        
+      width: 100%;
+      border-radius: 8px;
+      }
+       textarea{
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        min-height: 5em;
+        max-height: 5em;
+        background-color: #ffffff;
+        border-radius: 8px;
+        width: 100%;
+        min-width: 22em;
+        max-width: 22em;
+        height: 300px;
+       }
+       Button{
+      
+        width: 80%;
+        border:none;
+        background-color: #ffffff;
+        color: rgb(196, 35, 131);
+        font-family: 'Kdam Thmor Pro',sans-serif;
+        border-radius: 8px;
+        align-items: center;
+        padding: 8px 12px;
+        margin-left:2em;
+        cursor: pointer;
+        margin-top: 1em;
+        transition: 1s ease;
+       }
+       button:hover{
+        background-color:  rgb(196, 35, 131);
+        color: #fff;
+       }
+      
+       
