@@ -161,6 +161,11 @@ a{
     font-family: 'Oswald', sans-serif;
     margin-top: 35px;
     cursor: pointer;
+    transition: 1s ease;
+}
+.profile-button:hover{
+    background-color: #c324c9;
+
 }
 
 .divider {

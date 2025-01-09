@@ -161,8 +161,14 @@ a{
     font-family: 'Oswald', sans-serif;
     margin-top: 35px;
     cursor: pointer;
+    transition: 1s ease;
 }
 
+
+.profile-button:hover{
+    background-color: #c324c9;
+
+}
 .divider {
     width: 100%;
     border-top: .5px solid #bfbfbf;
@@ -212,3 +218,8 @@ footer {
     
     font-family: 'Oswald', sans-serif;
     color: #fff;}
+
+    .servicos{
+        color: #ffff;
+        text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+    }
