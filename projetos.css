@@ -63,6 +63,7 @@ footer {
     height:1.5em;
     display:flex;
     padding:0px 0px 2em;
+    
     flex-direction:column;
     font-size: 20px;
     align-items:center;
@@ -101,4 +102,25 @@ footer {
 
 #completo{
     font-size: 30px;
+}
+
+.sites h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+    margin-left: 5em;
+    width: 50%;
+    
+
+    
+}
+
+.divider {
+    width: 50%;
+    border-top: 10px solid #ffffff;
+    box-shadow: 0 0 5px #FF0000, 0 0 5px #0000FF;
+    margin: 20px 0;
+}
+.last{
+    padding-bottom: 1em;
 }
